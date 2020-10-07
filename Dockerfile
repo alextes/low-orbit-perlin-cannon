@@ -14,5 +14,5 @@ RUN yarn install --production
 
 COPY --from=build /opt/low-orbit-perlin-cannon/build build
 
-EXPOSE 3000
+EXPOSE 8080
 CMD ["node", "build/index.js"]

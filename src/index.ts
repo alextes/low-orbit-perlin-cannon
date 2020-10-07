@@ -5,7 +5,7 @@ import send from "@polka/send-type";
 
 let count = 0;
 
-const app = polka().listen(3000, (err: Error) => {
+const app = polka().listen(8080, (err: Error) => {
   if (err) throw err;
   console.log(`> perlin server listening`);
 });
